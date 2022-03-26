@@ -3,7 +3,7 @@ const { Webhook, MessageBuilder } = require('discord-webhook-node');
 const client = new Discord.Client();
 const id = require("./ids.json")
 const hook = require("./hooks.json")
-const token = process.env.TOKEN;
+const token = "TOKEN-HERE";
 
 console.log("made by:rain#1000")
 
